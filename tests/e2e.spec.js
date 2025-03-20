@@ -12,7 +12,7 @@ test('Succesfull user login', async ({ page }) => {
     await login.navigateToHome(); // go to the home page 
     await login.clickMyAccount();
     await login.clickLogin();
-    await login.enterUserdetails("runtesting4me@gmail.com", "Pa55w0rd");
+    await login.enterUserdetails("you_email", "your_password");
     // await verifyAccountDashboard();
     console.log(" All Tests passed.......");
 })
